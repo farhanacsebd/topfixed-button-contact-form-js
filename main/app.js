@@ -34,3 +34,27 @@ function sendEmail(){
          timer: 1500
        })
 }
+
+
+
+
+// -- ---------------------------------------------------
+//  ---------------------------------------------------
+//  -----------------------Scroll Top START------------ --
+
+
+  var scroll = document.querySelector('.scrollTop');
+  window.addEventListener('scroll', function () {
+      scroll.classList.toggle("active", window.scrollY > 100)
+  })
+
+  scroll.addEventListener('click', backToTop);
+
+  function backToTop() {
+      window.scrollTo(0, 0);
+  }
+
+
+// -- -----------------------Scroll Top END------------
+// ---------------------------------------------------
+// --------------------------------------------------- --

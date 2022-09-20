@@ -1,8 +1,3 @@
-html{
-  scroll-behavior: smooth;
-}
-
-
 * {
 
   margin: 0;
@@ -42,6 +37,7 @@ section div img{
 
 
 
+/* this mail class is modal */
 .mail{
   top: 80%;
   left: 0%;
@@ -51,6 +47,8 @@ section div img{
   /* height: 350px; */
 
 }
+
+
 button .fas{
   color: orange;
   /* background: blue; */
@@ -61,6 +59,7 @@ button .fas{
 /* ----------------START----------------------------------  */
 /* -------------------------------------------------- */
 /*------------- scroll buttom to top -------------- */
+
 .scrollTop {
   position: fixed;
   bottom: 40px;
