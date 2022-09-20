@@ -46,11 +46,35 @@ section div img{
   /* height: 350px; */
 
 }
-.fas{
+button .fas{
   color: orange;
   /* background: blue; */
   font-size: 30px;
 } 
+
+
+.gotopbtn{
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  height: 39px;
+  width: 37px;
+  text-align: center;
+  display: block;
+  background: #27ae60;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.gotopbtn a{
+  
+}
+
+.gotopbtn a span{
+  color: #f2f2f2;
+  line-height: 39px;
+  font-size: 25px;
+}
 
 
 
