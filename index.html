@@ -20,7 +20,9 @@
 </head>
 <body>
   <header>
-    <div><a class="gotopbtn" href=""><span><i class="fas fa-angle-up"></i></a></span></div>
+    <div class="scrollTop">
+      
+    </div>
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -113,6 +115,34 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum fugit, ad dicta nemo laudantium voluptas deleniti mollitia quia optio totam quod ex sint ab recusandae atque temporibus debitis amet. Soluta sint sit quibusdam assumenda architecto aut, ipsum aliquam facilis ipsam veniam dolorem unde eligendi corrupti, ducimus quod minus cum eos laboriosam. Quibusdam, eveniet cum incidunt pariatur excepturi alias quis voluptates nemo minus. Nemo consequatur at dicta unde ut id excepturi debitis libero quia! Repudiandae fuga consequatur totam in sed dignissimos, omnis consequuntur nihil placeat! Ipsa eius eaque doloribus tempore corrupti ullam beatae excepturi asperiores cumque, placeat quisquam! Odio, qui consectetur eaque ullam molestias consequuntur ipsum quisquam et hic obcaecati, vitae velit minus magnam ab recusandae quam totam tempore. Nam placeat veritatis, numquam dicta sequi unde dignissimos! Debitis quae, porro consequuntur, expedita perferendis, alias corrupti explicabo iure voluptatem tempore commodi possimus magni tempora et iste saepe odit laboriosam a. Vitae ab id dolorum facere. Vel sed, nesciunt dolorum culpa nemo quam doloribus cupiditate molestias reprehenderit similique? Facilis voluptatum doloribus porro maiores, optio incidunt perferendis, sapiente dicta sunt ullam odit officiis dignissimos error. Minima quod dolorem incidunt laborum repudiandae voluptatem fugiat debitis sit et autem! Reprehenderit laudantium accusantium sequi voluptatibus voluptas a eius sit veritatis odio nemo dolor, molestias voluptatum mollitia, facilis illum iure sapiente, autem totam cupiditate velit? Natus quaerat alias totam! Iure laborum nobis nam accusantium vel quia maxime in debitis quas dolorum accusamus expedita architecto ab ut voluptatibus eum animi ipsa vero, aperiam numquam facilis, cupiditate eaque. Veritatis eligendi quasi impedit odio neque, itaque non ipsa? Aperiam repudiandae reiciendis incidunt quis totam odit fugit nam commodi aliquid ipsam, at tempora non, modi perferendis, in reprehenderit sequi ut! Fuga eos consequuntur molestias facere optio pariatur voluptatum blanditiis veniam quibusdam possimus rerum id eum odit ratione porro explicabo officia, animi aliquam dolores commodi ullam molestiae aperiam! Ipsa voluptates eius eos iusto nemo commodi error necessitatibus architecto corporis ratione dolore, doloribus repudiandae reiciendis. Minus adipisci odio rerum aperiam culpa porro, explicabo nobis voluptatum! Suscipit molestias ab autem, sequi nam nisi modi at ut incidunt, animi ex fugit perferendis minus exercitationem necessitatibus, impedit ipsa laudantium explicabo possimus eveniet tempore vitae rem corrupti iure. Dicta aspernatur doloribus, quibusdam explicabo maxime dolore repellat magnam nobis, reiciendis quae vitae nemo. Non quae laboriosam impedit eveniet quaerat similique perspiciatis enim suscipit reiciendis omnis neque ratione, repudiandae, doloribus voluptatem ab eum possimus quas temporibus consectetur aut commodi alias? Sed rem earum placeat error illo ex eveniet debitis repellendus harum incidunt ut quasi ipsum eum sint, rerum porro qui? Maiores dolorem voluptatum aut saepe optio possimus nisi esse odit, consectetur est perferendis illum molestiae quam, aliquam quibusdam repellendus autem, exercitationem tempore consequatur at porro? Perferendis, iste. Tenetur itaque quisquam aliquam. Ea ducimus et harum velit eius sed! Ullam necessitatibus vel velit esse? Dicta assumenda voluptatibus mollitia impedit, adipisci doloremque asperiores modi laboriosam earum, illum nemo nam sequi, dignissimos iste molestiae. Veniam doloribus dolore dolores animi. Quos alias et eos autem tenetur minus beatae eligendi facere atque aut placeat sit modi possimus dolorum nemo veniam officia totam exercitationem, eaque laboriosam deserunt minima. Ipsam qui quae ducimus inventore, nobis odio, velit nesciunt dolor laboriosam dicta iure, sed temporibus! Expedita obcaecati sapiente veniam nobis ea quo minus dolores quibusdam in dolorum nulla eum consectetur autem fugit, nisi numquam atque? Quidem doloremque iure saepe dicta placeat architecto ratione esse laborum aut voluptates repellat tempora fugit, perspiciatis porro. Voluptas rerum omnis aliquid perferendis tempora quo tenetur sint ex sequi expedita similique nihil, inventore, beatae quam ut maiores officia ducimus? Quaerat quas ducimus asperiores quisquam. Ex delectus cum, doloribus vitae autem illum aperiam iure esse.</p>
     </section>
     </main>
+
+
+<!-- ---------------------------------------------------
+ ---------------------------------------------------
+ -----------------------Scroll Top START------------ -->
+ <script>
+
+  var scroll = document.querySelector('.scrollTop');
+  window.addEventListener('scroll', function () {
+      scroll.classList.toggle("active", window.scrollY > 100)
+  })
+
+  scroll.addEventListener('click', backToTop);
+
+  function backToTop() {
+      window.scrollTo(0, 0);
+  }
+
+</script>
+<!-- -----------------------Scroll Top END------------
+---------------------------------------------------
+--------------------------------------------------- -->
+
+
+
+
+
+    
     <!-- JavaScript link add  -->
     <script src="main/app.js"></script>
     <!-- JavaScript Bundle with Popper -->
